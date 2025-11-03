@@ -1,4 +1,6 @@
 # Executive summary
+<img src = "accenture/accenture.png" alt = "accenture - Output">
+
 
 This report presents a controlled cybersecurity simulation conducted to demonstrate how a
 phishing attack can lead to browser exploitation and sensitive data exposure.
