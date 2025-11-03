@@ -45,7 +45,6 @@ analysis.
 
 ---
 
-<img src = "accenture/screenshot-1.png" alt = "accenture - Output">
 
 # Methodology Overview
 
@@ -81,7 +80,10 @@ The phishing page was then linked to the BeEF server through the following embed
 This script ensured that once the page was opened by the victim, the browser would
 automatically register with the BeEF control server.
 
+<img src = "accenture/screenshot_1.png" alt = "accenture - Output">
 1. Attacker environment initialized
+
+<img src = "accenture/screenshot_2.png" alt = "accenture - Output">
 2. Phishing page hosted locally and BeEF server activated.
 
 ## Victim Interaction
@@ -93,6 +95,8 @@ password: testst).
 Immediately after submission, Zphisher displayed the following lines in the terminal:
 
 This confirmed that the tool captured and stored the credentials in the file auth/usernames.dat.
+<img src = "accenture/screenshot_3.png" alt = "accenture - Output">
+<img src = "accenture/screenshot_4.png" alt = "accenture - Output">
 
 Account : ayamantest
 Password : testst
@@ -108,6 +112,8 @@ In the BeEF interface, the victim’s browser appeared under Online Browsers, in
 successful connection.
 This meant the attacker could now execute JavaScript modules remotely on the victim’s
 browser.
+<img src = "accenture/screenshot_5.png" alt = "accenture - Output">
+
 
 4. Victim browser successfully hooked and listed in BeEF interface.
 
@@ -121,6 +127,7 @@ The BeEF console then returned:
 These coordinates corresponded to a valid geographic location, proving that sensitive
 information could be extracted through browser exploitation. Latitude: 24.7136
 Longitude: 46.6753
+<img src = "accenture/screenshot_6.png" alt = "accenture - Output">
 
 6. BeEF Geolocation module successfully executed and returned coordinates.
 
@@ -134,6 +141,9 @@ Longitude: 46.6753
 | BeEF Logs          | Recorded module executions and geolocation results.                  |
 | Screenshots        | Visual evidence of phishing page, hooked browser, and module output. |
 | Terminal Output    | Displayed captured credentials and saved file confirmation.          |
+
+<img src = "accenture/screenshot_7.png" alt = "accenture - Output">
+
 
 7. Collected evidence: captured credentials (left) and extracted geolocation data (right).
 
