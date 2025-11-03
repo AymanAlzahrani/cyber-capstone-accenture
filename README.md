@@ -45,7 +45,7 @@ analysis.
 
 ---
 
-<img src = "assets/github/Tuwaiq.png" alt = "Tuwaiq - Output">
+<img src = "accenture/screenshot-1.png" alt = "accenture - Output">
 
 # Methodology Overview
 
